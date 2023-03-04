@@ -22,16 +22,16 @@ API 명세서의 경우 두가지 조회 방법이 존재합니다.
 ## 사용한 플러그인
 
 ### <font color=red>WebClient (API 호출)</font>
-org.springframework.boot:spring-boot-starter-webflux
+	org.springframework.boot:spring-boot-starter-webflux
 
 
 ### <font color = red>Embedded Redis 핸들링</font>
-org.springframework.boot:spring-boot-starter-data-jpa
-
-org.springframework.boot:spring-boot-starter-data-redis
-
-group: 'it.ozimov', name: 'embedded-redis', version: '0.7.1'
+	org.springframework.boot:spring-boot-starter-data-jpa
+    org.springframework.boot:spring-boot-starter-data-redis
+    group: 'it.ozimov', name: 'embedded-redis', version: '0.7.1'
 
 ### <font color = red>Restdoc</font>
+	org.springframework.restdocs:spring-restdocs-mockmvc
 
-org.springframework.restdocs:spring-restdocs-mockmvc
+### <font color = red>Unittest</font>
+	implementation 'org.springframework.boot:spring-boot-starter-test'
