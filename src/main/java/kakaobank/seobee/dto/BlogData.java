@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 public class BlogData {
     String blogName;
     String contents;
-    LocalDateTime dateTime;
+    String dateTime;
     String thumbnail;
     String title;
     String url;

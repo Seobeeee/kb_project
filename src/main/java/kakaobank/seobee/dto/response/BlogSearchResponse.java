@@ -8,7 +8,7 @@ import java.util.List;
 
 @Data
 @Builder
-public class BlogSearchResponse {
+public class BlogSearchResponse{
     Integer responseCode;
     List<BlogData> blogDataList;
 }

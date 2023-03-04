@@ -1,7 +1,10 @@
 package kakaobank.seobee.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
@@ -10,10 +13,14 @@ import java.time.LocalDateTime;
  */
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class KakaoBlogData {
+    @JsonProperty("blogname")
     String blogName;
     String contents;
-    LocalDateTime dateTime;
+    @JsonProperty("datetime")
+    String dateTime;
     String thumbnail;
     String title;
     String url;
