@@ -11,7 +11,6 @@ ext {
 
 test {
 	outputs.dir snippetsDir
-	//useJUnitPlatform()
 }
 
 asciidoctor {
@@ -68,8 +67,6 @@ bootJar{
 	archiveFileName = 'kakaobank.jar'
 	dependsOn asciidoctor
 	copy {
-		//from "${asciidoctor.outputDir}"
-		//into 'BOOT-INF/classes/static/docs'
 		from file("build/docs/asciidoc/")
 		into file("src/main/resources/static/docs")
 	}
