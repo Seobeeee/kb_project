@@ -6,6 +6,8 @@
 
 감사합니다.
 
+ Github URL - https://github.com/Seobeeee/kb_project
+
 ---
 
 ## jar파일 다운로드 경로
