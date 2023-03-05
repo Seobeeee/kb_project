@@ -9,7 +9,9 @@
 ---
 
 ## jar파일 다운로드 경로
-https://github.com/Seobeeee/kb_project/raw/main/kakaobank.jar
+두 경로 모두 같은 파일입니다. 하나만 다운로드 받으시면 됩니다.
+1. https://github.com/Seobeeee/kb_project/raw/main/kakaobank.jar
+2. https://drive.google.com/file/d/1uaL-iWPVKtB3hXVRqc0AA1HQf3q1v1Wu/view?usp=share_link
 
 ## API 명세서 경로
 API 명세서의 경우 두가지 조회 방법이 존재합니다.
